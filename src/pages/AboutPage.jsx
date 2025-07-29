@@ -23,15 +23,36 @@ export default function AboutPage() {
   return (
     <section className="max-w-4xl mx-auto py-16 px-6">
       <h1 className="text-4xl font-extrabold text-blue-800 mb-4">About PowerPulse Technologies</h1>
-      <p className="text-lg text-gray-700 mb-8">
-        PowerPulse Technologies is on a mission to revolutionize industrial maintenance using the power of Artificial Intelligence, IoT, and predictive analytics. Our team is a blend of plant engineers, data scientists, and digital innovators dedicated to smarter, safer, and more efficient plant operations.
+      
+      <p className="text-lg text-gray-700 mb-3">
+        <strong>Founded in 2025 by engineers and data scientists</strong>, PowerPulse was born from a simple idea: small and mid-size plants deserve world-class digital maintenance tools.
       </p>
+      <p className="text-lg text-gray-700 mb-3">
+        We’ve seen the pain of unplanned outages and the hassle of paper-based records. That’s why our startup’s mission is to empower plant teams with practical, easy-to-use solutions—from fast IoT sensor deployment to AI-powered insights.
+      </p>
+      <p className="text-lg text-gray-700 mb-3">
+        As a new startup, we’re agile, hungry, and ready to collaborate! We welcome pilot projects, partnership opportunities, and co-creation with plant leaders who want to digitize maintenance without the complexity or huge costs.
+      </p>
+      <div className="mb-5">
+        <span className="block font-bold text-blue-700 mb-1">Why choose PowerPulse, even as a new player?</span>
+        <ul className="list-disc pl-6 text-gray-700">
+          <li>Real-world plant experience—our team has worked in and with thermal/cement/steel plants</li>
+          <li>Certified in data science, IoT, and predictive analytics</li>
+          <li>Focused on practical results, not just technology</li>
+          <li>Dedicated support from the founders themselves</li>
+        </ul>
+      </div>
+      <p className="text-lg text-gray-700 mb-8">
+        <span className="font-semibold text-blue-700">Let’s make digital reliability a reality—for everyone.</span>
+      </p>
+
       <div className="bg-white rounded-xl shadow p-8 mb-10">
         <h2 className="text-2xl font-bold text-blue-700 mb-2">Our Vision</h2>
         <p className="text-gray-700">
           To enable every industrial plant—no matter the size or location—to run at peak efficiency, maximum reliability, and minimum downtime.
         </p>
       </div>
+      
       {/* Animated stats */}
       <div className="flex justify-center gap-10 mt-10">
         <div className="text-center">
@@ -53,7 +74,8 @@ export default function AboutPage() {
           <div className="text-gray-600">Uptime Improvement</div>
         </div>
       </div>
-      {/* Core values grid as before */}
+      
+      {/* Core values grid */}
       <div className="grid md:grid-cols-3 gap-6 mt-14">
         <div className="bg-blue-50 rounded-xl p-6 shadow text-center">
           <div className="text-3xl mb-2">🌐</div>
