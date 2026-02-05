@@ -2,6 +2,7 @@ import Container from "../components/ui/Container";
 import Section from "../components/ui/Section";
 import Card from "../components/ui/Card";
 import PageMeta from "../components/seo/PageMeta";
+import Button from "../components/ui/Button";
 import { caseStudies } from "../data/siteData";
 
 export default function CaseStudies() {
@@ -34,6 +35,17 @@ export default function CaseStudies() {
                 <li>Solution: {study.solution}</li>
                 <li>Outcome: {study.outcome}</li>
               </ul>
+              {study.title === "Ash Pipeline Integrity Pilot" && (
+                <Button
+                  as="a"
+                  href="https://adpims.powerpulsetech.in/"
+                  variant="secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {"View Pilot Demo ->"}
+                </Button>
+              )}
             </Card>
           ))}
         </Container>

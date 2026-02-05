@@ -65,6 +65,24 @@ export default function ProductsIndex() {
                     {product.cta}
                   </Button>
                 </div>
+                {product.slug === "ash-integrity" && (
+                  <>
+                    <div className="buttonRow">
+                      <Button
+                        as="a"
+                        href="https://adpims.powerpulsetech.in/"
+                        variant="secondary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        View Pilot Demo
+                      </Button>
+                    </div>
+                    <p className="mutedSmall">
+                      Pilot demo environment. Manual inspection data. No live IoT sensors.
+                    </p>
+                  </>
+                )}
               </Card>
             ))}
           </div>

@@ -35,7 +35,19 @@ export default function AshIntegrity() {
               <Button as={Link} to="/products" variant="secondary">
                 Back to products
               </Button>
+              <Button
+                as="a"
+                href="https://adpims.powerpulsetech.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Pilot Demo
+              </Button>
             </div>
+            <p className="mutedSmall">
+              Demo environment using manual inspection and thickness survey inputs. Designed
+              for evaluation and pilot use.
+            </p>
           </div>
         </Container>
       </Section>
