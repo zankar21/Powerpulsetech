@@ -44,6 +44,7 @@ export const products = [
     name: "ChandaNest.in",
     status: "Coming Soon - Early Access",
     statusTone: "warning",
+    descriptor: "For Tier-2 and Tier-3 city real estate ecosystems.",
     description:
       "A real estate tech platform with verified listings workflows and transparent property discovery.",
     highlights: [
@@ -60,6 +61,7 @@ export const products = [
     name: "Ash Disposal Pipeline Integrity",
     status: "Pilot-ready demo - manual data input",
     statusTone: "info",
+    descriptor: "For thermal power plants with slurry and ash pipelines.",
     description:
       "Integrity management for ash disposal pipelines with manual inspection inputs, analytics, alerts, and history.",
     highlights: [
@@ -77,31 +79,37 @@ export const services = [
   {
     title: "Discovery and Roadmap",
     description: "Align on goals, constraints, and delivery milestones.",
+    example: "For example: audits, workflows, scope-to-MVP plans, sprint roadmap",
     icon: Lightbulb
   },
   {
     title: "UI/UX and Product Design",
     description: "Design systems, prototypes, and flows that ship.",
+    example: "For example: premium UI, design system, clickable prototypes",
     icon: LayoutGrid
   },
   {
     title: "Web Apps and Dashboards",
     description: "Operational dashboards and web platforms built to scale.",
+    example: "For example: operations dashboards, review boards, alert consoles",
     icon: Gauge
   },
   {
     title: "Backend APIs and Integrations",
     description: "Secure APIs and data integrations across your stack.",
+    example: "For example: secure APIs, role-based access, data ingestion, exports",
     icon: Blocks
   },
   {
     title: "Data and AI",
     description: "LLMs, extraction, analytics, and decision support.",
+    example: "For example: LLM extraction from inspection PDFs, analytics, anomaly signals",
     icon: LineChart
   },
   {
     title: "Cloud and DevOps",
     description: "GCP, Firebase, and Cloud Run delivery pipelines.",
+    example: "For example: GCP/Firebase/Cloud Run, CI/CD, monitoring, secure deployments",
     icon: Cloud
   }
 ];
@@ -133,21 +141,27 @@ export const caseStudies = [
   {
     title: "Operations Reliability Command Center",
     label: "Prototype",
-    summary:
+    problem:
+      "Fragmented KPI reviews with inconsistent data and delayed decision cycles.",
+    solution:
       "Unified dashboards for KPI tracking, incidents, and inspection history.",
-    outcome: "Faster weekly reviews with consistent reporting."
+    outcome: "Clearer weekly reviews and more reliable decision-making."
   },
   {
     title: "Ash Pipeline Integrity Pilot",
     label: "Pilot",
-    summary:
+    problem:
+      "Manual inspection data was hard to track across time and assets.",
+    solution:
       "Manual inspection logging, thickness trend analysis, and alert rules.",
-    outcome: "Clearer decisions on maintenance windows."
+    outcome: "Better visibility into risk trends and maintenance timing."
   },
   {
     title: "Real Estate Listing Workflow",
     label: "Prototype",
-    summary:
+    problem:
+      "Low trust listings and inconsistent onboarding across local brokers.",
+    solution:
       "Verification and onboarding flows to improve listing quality signals.",
     outcome: "Early access workflows ready for partner testing."
   }

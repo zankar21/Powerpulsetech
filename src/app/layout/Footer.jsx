@@ -10,15 +10,13 @@ export default function Footer() {
         <div className={styles.grid}>
           <div className={styles.brandBlock}>
             <div className={styles.brand}>
-              <span className={styles.iconChip}>
-                <img
-                  src="/powerpulse-icon.png"
-                  alt="PowerPulse"
-                  className={styles.icon}
-                  loading="lazy"
-                  decoding="async"
-                />
-              </span>
+              <img
+                src="/powerpulse-icon.png"
+                alt="PowerPulse"
+                className={styles.icon}
+                loading="lazy"
+                decoding="async"
+              />
               <span className={styles.brandText}>
                 <span className={styles.brandName}>PowerPulse</span>
                 <span className={styles.brandSub}>TECHNOLOGIES</span>
@@ -29,6 +27,7 @@ export default function Footer() {
               enterprise teams.
             </p>
             <p>Pune, India</p>
+            <p>Serving plants and enterprises across India.</p>
           </div>
           <div>
             <p className={styles.title}>Company</p>

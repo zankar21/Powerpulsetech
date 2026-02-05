@@ -40,6 +40,14 @@ export default function Home() {
             <p className={styles.heroSub}>
               Pilot-ready demos in 2-4 weeks. Delivery in sprints.
             </p>
+            <div>
+              <span className="eyebrow">Examples of work:</span>
+              <ul>
+                <li>Ash pipeline integrity dashboards for thermal power plants</li>
+                <li>Real estate listing and workflow platforms for Tier-2 and Tier-3 cities</li>
+                <li>Operations dashboards for reviews, alerts, and decision-making</li>
+              </ul>
+            </div>
             <div className="buttonRow">
               <Button as={Link} to="/contact" size="lg">
                 Book a Call <ArrowRight size={16} />
@@ -107,6 +115,23 @@ export default function Home() {
       <Section className="alt">
         <Container>
           <SectionHeading
+            eyebrow="Who we work with"
+            title="Who we work with"
+            subtitle="Typical buyers: Plant Heads, Operations Heads, Maintenance Heads, CIOs, Program Managers"
+          />
+          <div className="tagRow">
+            <Badge tone="neutral">Power and utilities</Badge>
+            <Badge tone="neutral">Industrial manufacturing</Badge>
+            <Badge tone="neutral">EPC and infra</Badge>
+            <Badge tone="neutral">Real estate platforms</Badge>
+            <Badge tone="neutral">CSR and ESG teams</Badge>
+          </div>
+        </Container>
+      </Section>
+
+      <Section className="alt">
+        <Container>
+          <SectionHeading
             eyebrow="Services"
             title="Custom software and AI-driven product development"
             subtitle="Six delivery pillars that cover design, build, and deployment."
@@ -159,11 +184,28 @@ export default function Home() {
               <Card key={study.title}>
                 <span className="eyebrow">{study.label}</span>
                 <h3>{study.title}</h3>
-                <p>{study.summary}</p>
+                <p>{study.solution}</p>
                 <strong>{study.outcome}</strong>
               </Card>
             ))}
           </div>
+        </Container>
+      </Section>
+
+      <Section>
+        <Container>
+          <Card>
+            <SectionHeading
+              eyebrow="About PowerPulse"
+              title="About PowerPulse"
+              subtitle="We are a senior-led team building AI-driven software and dashboards for industrial and enterprise operations. We deliver in sprints, with pilot-ready demos in 2-4 weeks and clean production handover."
+            />
+            <div className="buttonRow">
+              <Button as={Link} to="/about" variant="secondary">
+                Learn more
+              </Button>
+            </div>
+          </Card>
         </Container>
       </Section>
 

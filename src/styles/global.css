@@ -89,6 +89,17 @@ strong {
   gap: 24px;
 }
 
+.tagRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mutedSmall {
+  font-size: 13px;
+  color: var(--muted);
+}
+
 @media (min-width: 960px) {
   .pageGrid {
     grid-template-columns: repeat(3, 1fr);

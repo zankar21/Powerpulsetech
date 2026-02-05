@@ -22,6 +22,10 @@ export default function ChandaNest() {
               A real estate tech platform built for verified listings, workflow-led
               onboarding, and transparent discovery for buyers and agents.
             </p>
+            <p>
+              Built for Tier-2 and Tier-3 city real estate ecosystems: owners, agents, and
+              local broker partners.
+            </p>
             <div className="buttonRow">
               <Button as={Link} to="/contact">
                 Request Early Access

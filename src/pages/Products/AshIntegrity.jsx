@@ -23,6 +23,7 @@ export default function AshIntegrity() {
               thickness survey inputs. Built for analytics, alerts, history, and
               decision-ready reporting.
             </p>
+            <p>Designed for thermal power plants with slurry and ash pipelines.</p>
             <p>
               Note: Uses manual inspection and thickness survey data entry. No IoT sensors
               are implemented in the current scope.

@@ -39,6 +39,7 @@ export default function Services() {
                   <Icon size={20} />
                   <h3>{service.title}</h3>
                   <p>{service.description}</p>
+                  <p className="mutedSmall">{service.example}</p>
                 </Card>
               );
             })}

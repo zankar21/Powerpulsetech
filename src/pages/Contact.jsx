@@ -69,6 +69,17 @@ export default function Contact() {
                 <Button type="submit">Send message</Button>
               </form>
             </Card>
+            <Card>
+              <div className={styles.cardRow}>
+                <div>
+                  <strong>Prefer not to book a call yet?</strong>
+                  <p>Download our 2-page capability brief.</p>
+                  <Button as="a" href="/capability-brief.pdf" variant="secondary">
+                    Download 2-page capability brief
+                  </Button>
+                </div>
+              </div>
+            </Card>
           </div>
           <div className={styles.cards}>
             <Card>

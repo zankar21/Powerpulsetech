@@ -14,15 +14,13 @@ export default function Navbar() {
       <Container>
         <div className={styles.row}>
           <Link to="/" className={styles.brand}>
-            <span className={styles.iconChip}>
-              <img
-                src="/powerpulse-icon.png"
-                alt="PowerPulse"
-                className={styles.icon}
-                loading="eager"
-                decoding="async"
-              />
-            </span>
+            <img
+              src="/powerpulse-icon.png"
+              alt="PowerPulse"
+              className={styles.icon}
+              loading="eager"
+              decoding="async"
+            />
             <span className={styles.brandText}>
               <span className={styles.brandName}>PowerPulse</span>
               <span className={styles.brandSub}>TECHNOLOGIES</span>

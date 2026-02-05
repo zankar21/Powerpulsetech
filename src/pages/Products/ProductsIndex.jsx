@@ -50,6 +50,7 @@ export default function ProductsIndex() {
                     ? "Coming Soon (Early Access)"
                     : "Pilot-ready demo"}
                 </p>
+                <p>{product.descriptor}</p>
                 <p>{product.description}</p>
                 <ul>
                   {product.highlights.map((item) => (

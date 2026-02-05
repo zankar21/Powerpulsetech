@@ -29,8 +29,11 @@ export default function CaseStudies() {
             <Card key={study.title}>
               <span className="eyebrow">{study.label}</span>
               <h3>{study.title}</h3>
-              <p>{study.summary}</p>
-              <strong>{study.outcome}</strong>
+              <ul>
+                <li>Problem: {study.problem}</li>
+                <li>Solution: {study.solution}</li>
+                <li>Outcome: {study.outcome}</li>
+              </ul>
             </Card>
           ))}
         </Container>
