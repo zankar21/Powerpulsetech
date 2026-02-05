@@ -1,0 +1,25 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+}
+
+.info {
+  background: var(--surface-2);
+  color: var(--brand-2);
+}
+
+.warning {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.neutral {
+  background: var(--surface-2);
+  color: var(--muted);
+}

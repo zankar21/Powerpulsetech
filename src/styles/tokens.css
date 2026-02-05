@@ -1,0 +1,15 @@
+:root {
+  --bg: #f7f8fb;
+  --surface: #ffffff;
+  --surface-2: #eef2f7;
+  --text: #0b1b2b;
+  --muted: #516170;
+  --brand: #0e2a47;
+  --brand-2: #1f5a8a;
+  --accent: #16a3a0;
+  --accent-soft: #dff2f1;
+  --border: #dde4ee;
+  --shadow: 0 20px 60px rgba(12, 29, 50, 0.08);
+  --font-body: "Manrope";
+  --font-display: "Sora";
+}

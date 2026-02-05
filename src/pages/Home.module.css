@@ -1,0 +1,94 @@
+.hero {
+  position: relative;
+  padding: 120px 0 80px;
+  overflow: hidden;
+}
+
+.heroBackground {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top left, rgba(14, 42, 71, 0.18), transparent 55%),
+    radial-gradient(circle at top right, rgba(22, 163, 160, 0.18), transparent 50%);
+}
+
+.heroGrid {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(14, 42, 71, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(14, 42, 71, 0.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+  opacity: 0.4;
+}
+
+.heroContent {
+  position: relative;
+  display: grid;
+  gap: 24px;
+  max-width: 640px;
+}
+
+.heroTitle {
+  font-family: var(--font-display), sans-serif;
+  font-size: 46px;
+  margin: 0;
+}
+
+.heroSub {
+  font-size: 18px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.heroCards {
+  margin-top: 40px;
+  display: grid;
+  gap: 16px;
+}
+
+.heroCard {
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.highlightTitle {
+  font-weight: 600;
+}
+
+.sectionGrid {
+  display: grid;
+  gap: 24px;
+}
+
+.productGrid {
+  display: grid;
+  gap: 24px;
+}
+
+.split {
+  display: grid;
+  gap: 24px;
+}
+
+@media (min-width: 960px) {
+  .heroCards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sectionGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .productGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .split {
+    grid-template-columns: 1.2fr 1fr;
+    align-items: center;
+  }
+}
